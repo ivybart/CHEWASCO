@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+/* style infobox*/
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 15em;
+    }
+    .info h4 {
+    margin: 0 0 5px;
+    color: #777777;
+    }
+    .info #current_feature {
+    margin: 6px 0;
+    }
+/* style custom pop up*/
+.custom-popup {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.custom-popup b {
+    color: #0077B6; /* Customize the color of the bold text */
+}
+.custom-popup p {
+    margin: 5px 0;
+}
+/* style reset zoom button*/
+.reset-zoom-btn {
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.reset-zoom-btn:hover {
+    background-color: #48BEFF;
+}
+.reset-zoom-btn:active {
+    background-color: #e0e0e0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
